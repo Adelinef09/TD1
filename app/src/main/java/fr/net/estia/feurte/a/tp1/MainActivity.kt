@@ -21,15 +21,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(view: View?) {
-//        TODO("Not yet implemented")
-        val link = mutableListOf<String>(
+        val link = mutableListOf(
             "https://www.editions-equinoxe.com/editeur-livre-provence/uploads/2018/08/La-cigogne-voyageuse-du-levant-aux-editions-Equinoxe_photo-maurice-schalker.jpg",
             "https://cdn.futura-sciences.com/buildsv6/images/wide1920/4/f/0/4f0a7b509c_50154019_oeufs-moustique-tigre-diapause.jpg",
             "https://www.anmp-plongee.com/wp-content/uploads/2016/06/N2.png",
             "https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/a/0/f/a0fc73919d_50166390_chaton.jpg"
         )
         loadImage(link.random())
-        Toast.makeText(this," You click me", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "You click me", Toast.LENGTH_LONG).show()
     }
 
     private fun loadImage(url: String) {
