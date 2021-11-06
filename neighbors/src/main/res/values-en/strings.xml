@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">neighbors</string>
+    <string name="img">Picture</string>
+    <string name="nom">Name</string>
+    <string name="tel">Phone</string>
+    <string name="webste">Website</string>
+    <string name="address">Address</string>
+    <string name="a_propos">About me</string>
+    <string name="save">SAVE</string>
+    <string name="error_tel">The phone as to be at the size (06 ou 07) XX XX XX XX</string>
+    <string name="error_urlImage">"URL is not valid"</string>
+    <string name="error_urlWeb">"URL is not valid"</string>
+    <string name="add_neighbor">New neighbors</string>
+    <string name="list_neighbor">Neighbors List</string>
+    <string name="enregistrer">save</string>
+    <string name="image">picture</string>
+    <string name="ajout_voisin">new_neighbor</string>
+    <string name="button_image">button_picture</string>
+</resources>
